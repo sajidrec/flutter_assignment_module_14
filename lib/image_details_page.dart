@@ -18,11 +18,11 @@ class ImageDetailsPage extends StatelessWidget {
               child: Column(
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [
-                  Image.network(item["url"] ?? ""),
+                  Stack(alignment: Alignment.center, children:[ const CircularProgressIndicator(),Image.network(item["url"] ?? ""),]),
                   const SizedBox(
                     height: 10,
                   ),
-                  Text("Title: ${item["title"]}"),
+                  Text("Title: ${item["title"] ?? "Data fetch error"}"),
                   const SizedBox(
                     height: 10,
                   ),
