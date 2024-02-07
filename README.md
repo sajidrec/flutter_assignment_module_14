@@ -2,15 +2,20 @@
 
 Module 14 assignment
 
-## Getting Started
+## Task
 
-This project is a starting point for a Flutter application.
+Create a Flutter app to fetch and display photos from the following URL: 
+https://jsonplaceholder.typicode.com/photos
 
-A few resources to get you started if this is your first Flutter project:
+## Guideline:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+1. Fetch photos using an HTTP GET request from the provided API endpoint.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+
+2. Display a list of photos with titles and thumbnail images.
+
+
+3. On tapping a photo, navigate to a new screen displaying the full-size image, title, and ID.
+
+
+4. Implement error handling for API calls.
